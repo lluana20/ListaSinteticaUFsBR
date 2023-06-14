@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(189, 189, 248);
+}
+table {
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    border-style: solid;
+    border-width: 0.5px;
+    color: black;
+    background-color: gray;
+    text-align: center;
+    font-size:85%
+}
+.coluna{
+    width: 70px;
+}
+h1{
+    text-align: center;
+}
