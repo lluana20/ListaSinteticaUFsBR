@@ -1,21 +1,37 @@
+
 *{
-    background-color: rgb(189, 189, 248);
+    
+    background-color: rgb(27, 27, 27)
+    
 }
+/*Tabela*/
 table {
-    border-radius: 10px;
     width: 80%;
+    border-radius: 20px;
     margin: auto;
     text-align: left;
-    border-style: solid;
-    border-width: 0.5px;
-    color: black;
-    background-color: gray;
+    border-width: 5px; 
+    color: white;
+    background-color: pink;
     text-align: center;
-    font-size:85%
+    font-size:85%;
+    font-family: Helvetica;
 }
 .coluna{
     width: 70px;
 }
+
+/*Titulo*/
 h1{
     text-align: center;
+    color: white;
+    font-family: Georgia;
+    font-size: 40px;
+
+    
+}
+/*Footer*/
+footer{
+    text-align: center;
+    color:pink;
 }

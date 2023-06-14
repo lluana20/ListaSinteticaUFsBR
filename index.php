@@ -12,11 +12,15 @@
 
 <body>
 	<header>
-		<h1>Unidades federativas do Brasil: Lista Sintética</h1>
+
+		<h1> <img style="width:60px" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" 
+		alt="Bandeira do Brasil" />  Unidades Federativas do Brasil : Lista Sintética</h1>
 	</header>
 
+	<br><br>
 
 	<?php
+	//Dados da tabela
 	$estadosbr = array(
 		array(
 			'<img style="width:50px;" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Bandeira_do_Acre.svg" alt="Bandeira do Acre">',
@@ -134,7 +138,7 @@
 			'<img style="width:50px;" src="https://upload.wikimedia.org/wikipedia/commons/4/43/Bandeira_do_Espírito_Santo.svg" alt="Bandeira do Espirito Santo ">',
 			'Espirito Santo',
 			'ES',
-			'Vitótia', 								
+			'Vitótia',
 			'46 077,5',
 			'3 894 899',
 			'73,97',
@@ -166,7 +170,7 @@
 			'<img style="width:50px;" src="https://upload.wikimedia.org/wikipedia/commons/4/45/Bandeira_do_Maranhão.svg" alt="Bandeira do Maranhão ">',
 			'Maranhão',
 			'MA',
-			'São Luís', 							
+			'São Luís',
 			'331 983,3',
 			'6 861 924',
 			'18,38',
@@ -180,7 +184,7 @@
 		),
 		array(
 			'<img style="width:50px;" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Bandeira_de_Mato_Grosso.svg" alt="Bandeira do Mato Grosso ">',
-			'Mato Grosso',												
+			'Mato Grosso',
 			'MT',
 			'Cuiabá',
 			'903 357,9',
@@ -214,7 +218,7 @@
 			'<img style="width:50px;" src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Bandeira_de_Minas_Gerais.svg" alt="Bandeira de Minas Gerais ">',
 			'Minas Gerais',
 			'MG',
-			'Belo Horizonte',							
+			'Belo Horizonte',
 			'586 528,3',
 			'20 777 672',
 			'32,79',
@@ -230,7 +234,7 @@
 			'<img style="width:50px;" src="https://upload.wikimedia.org/wikipedia/commons/0/02/Bandeira_do_Pará.svg" alt="Bandeira do Pará ">',
 			'Pará',
 			'PA',
-			'Belém',								
+			'Belém',
 			'1 247 689,5',
 			'8 101 180',
 			'5,58',
@@ -246,7 +250,7 @@
 			'<img style="width:50px;" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Bandeira_da_Paraíba.svg" alt="Bandeira da Paraíba ">',
 			'Paraíba',
 			'PB',
-			'João Pessoa', 									
+			'João Pessoa',
 			'56 439,8',
 			'3 950 359',
 			'63,71',
@@ -262,7 +266,7 @@
 			'<img style="width:50px;" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Bandeira_do_Paraná.svg" alt="Bandeira do Paraná">',
 			'Paraná',
 			'PR',
-			'Curitiba',									
+			'Curitiba',
 			'199 314,9',
 			'11 112 062',
 			'51,48',
@@ -278,7 +282,7 @@
 			'<img style="width:50px;" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Bandeira_de_Pernambuco.svg" alt="Bandeira de Pernambuco ">',
 			'Pernambuco',
 			'PE',
-			'Recife', 									
+			'Recife',
 			'98 311,6',
 			'9 297 861',
 			'85,58',
@@ -485,6 +489,9 @@
 			?>
 		</tbody>
 	</table>
+	<br><br><br><br><br><br>
+	<hr>
+	<footer> <br> Luana Lima &copy; 2023-IFNMG <br> <br></footer>
 </body>
 
 </html>
